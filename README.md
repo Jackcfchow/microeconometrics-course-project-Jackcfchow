@@ -1,6 +1,11 @@
 # Course project template
 
-This is a template for course projects. We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects and so you need to sign up for a [GitHub Account](http://github.com).
+This repository contains the replication of the following paper:
+
+    Bleakley, H., & Chin, A. (2010). Age at arrival, English proficiency, and social assimilation among US immigrants. American Economic Journal: Applied Economics, 2(1), 165-92.
+   
+ To be continued.....
+
 
 ## Project overview
 
