@@ -2,7 +2,8 @@
 
 This repository contains the replication of the following paper:
 
-    Bleakley, H., & Chin, A. (2010). Age at arrival, English proficiency, and social assimilation among US immigrants. American Economic Journal: Applied Economics, 2(1), 165-92.
+    Bleakley, H., & Chin, A. (2010). Age at arrival, English proficiency, and social assimilation among US immigrants. 
+    American Economic Journal: Applied Economics, 2(1), 165-92.
    
  To be continued.....
 
