@@ -18,7 +18,7 @@ Please ensure that a brief description of your project is included in the [READM
   src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.png"
       width="109" height="20">
 </a>
-<a href="https://github.com/HumanCapitalAnalysis/microeconometrics-course-project-Jackcfchow/blob/master/Project.ipynb"
+<a href="https://mybinder.org/v2/gh/HumanCapitalAnalysis/microeconometrics-course-project-Jackcfchow/blob/master/Project.ipynb"
     target="_parent">
     <img align="center"
        src="https://mybinder.org/badge_logo.svg"
