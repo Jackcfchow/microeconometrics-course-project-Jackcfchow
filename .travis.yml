@@ -17,10 +17,10 @@ install:
   - conda env create -f environment.yml
   - source activate student_project
   
-install: travis_wait 30 mvn installscript:
    # This automatically executes all notebooks (*.ipynb)
    # in the root directory. If you only want to execute
    # selected notebooks or notebooks in subdirectories,
    # please go ahead and edit the file to meet your 
    # needs.
    - travis_wait python utils/travis_runner.py
+install: travis_wait 30 mvn installscript:
