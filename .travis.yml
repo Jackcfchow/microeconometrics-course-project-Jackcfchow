@@ -16,8 +16,8 @@ install:
   - PATH="$HOME/miniconda/bin:$PATH"
   - conda env create -f environment.yml
   - source activate student_project
-  - travis_wait 40 mvn install
-script:
+  
+install: travis_wait 30 mvn installscript:
    # This automatically executes all notebooks (*.ipynb)
    # in the root directory. If you only want to execute
    # selected notebooks or notebooks in subdirectories,
