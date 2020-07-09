@@ -5,13 +5,17 @@ python:
 
 bundler_args: --retry 3
 
+before install:
+  - if [[ "$TRAVIS_OS_NAME" == "osx" && -z $SKIP_GRAPHVIZ ]]; then brew update          ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "osx" && -z $SKIP_GRAPHVIZ ]]; then brew install graphviz; fi
+
 install:
   - sudo apt-get update
+  - sudo apt-get install graphviz
   - ./utils/travis_miniconda.sh
   - PATH="$HOME/miniconda/bin:$PATH"
   - conda env create -f environment.yml
   - source activate student_project
-
 script:
    # This automatically executes all notebooks (*.ipynb)
    # in the root directory. If you only want to execute
