@@ -44,6 +44,7 @@ else:
 ```
 
 However, if you decide to do so, please be sure to provide an explanation in your notebook explaining why exactly this is required in your case.
+![Continuous Integration](https://github.com/HumanCapitalAnalysis/microeconometrics-course-project-Jackcfchow/workflows/Continuous%20Integration/badge.svg)
 
 ## Structure of notebook
 
