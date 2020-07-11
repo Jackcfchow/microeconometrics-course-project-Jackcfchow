@@ -4,9 +4,7 @@ python:
   - 3.6
 
 bundler_args: --retry 3
-before install:
-  - if [[ "$TRAVIS_OS_NAME" == "osx" && -z $SKIP_GRAPHVIZ ]]; then brew update          ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "osx" && -z $SKIP_GRAPHVIZ ]]; then brew install graphviz; fi
+
 
 install:
   - sudo apt-get update
@@ -21,4 +19,4 @@ install:
    # selected notebooks or notebooks in subdirectories,
    # please go ahead and edit the file to meet your 
    # needs.##
-   - travis_wait 60 python utils/travis_runner.py
+   - travis_wait python utils/travis_runner.py
